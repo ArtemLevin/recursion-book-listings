@@ -29,5 +29,6 @@ def fibonacci(nthNumber, indent=0):
         # print('Call to fibonacci(%s) returning %s.' \
         #       % (nthNumber, result))
         fibonacciCache[nthNumber] = result
+        return result
 
 print(fibonacci(10))
